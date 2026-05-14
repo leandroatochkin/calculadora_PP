@@ -10,7 +10,7 @@ Una calculadora web diseñada para ser totalmente responsiva y funcional tanto c
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [""URL de este REPO""]
+    git clone https://github.com/leandroatochkin/calculadora_PP
     ```
 2.  **Abrir el proyecto:**
     Abrir el archivo `index.html` con tu navegador de preferencia.
