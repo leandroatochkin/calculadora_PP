@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="case">
+        <div id="screen">
+            <div id="screen-operations"></div>
+            <div id="result"></div>
+        </div>
+        <div id="button-container">
+            <div id="functions">
+                <button id="clear" class="function-buttons" data-key="Delete">clear</button>
+                <button id="delete" class="function-buttons" data-key="Backspace">⌫</button>
+            </div>
+            <div id="pad">                        
+                <div id="numpad">
+                    <div class="row">
+                        <button id="7" class="numpad-button" value="7" data-key="Digit7 Numpad7">7</button>
+                        <button id="8" class="numpad-button" value="8" data-key="Digit8 Numpad8">8</button>
+                        <button id="9" class="numpad-button" value="9" data-key="Digit9 Numpad9">9</button>
+                    </div>
+                    <div class="row">
+                        <button id="4" class="numpad-button" value="4" data-key="Digit4 Numpad4">4</button>
+                        <button id="5" class="numpad-button" value="5" data-key="Digit5 Numpad5">5</button>
+                        <button id="6" class="numpad-button" value="6" data-key="Digit6 Numpad6">6</button>
+                    </div>
+                    <div class="row">
+                        <button id="1" class="numpad-button" value="1" data-key="Digit1 Numpad1">1</button>
+                        <button id="2" class="numpad-button" value="2" data-key="Digit2 Numpad2">2</button>
+                        <button id="3" class="numpad-button" value="3" data-key="Digit3 Numpad3">3</button>
+                    </div>
+                    <div class="row">
+                        <button id="0" class="numpad-button" value="0" data-key="Digit0 Numpad0">0</button>
+                        <button id="decimal" class="numpad-button" value="." data-key="Decimal NumpadDecimal">.</button>
+                        <button id="equal" value="=" data-key="Enter NumpadEnter">=</button>
+                    </div>                 
+                </div>
+                <div id="operations">
+                    <button id="plus" class="numpad-operations" value="+" data-key="NumpadAdd">+</button>
+                    <button id="minus" class="numpad-operations" value="-" data-key="NumpadSubtract">-</button>
+                    <button id="multiply" class="numpad-operations" value="*" data-key="NumpadMultiply">*</button>
+                    <button id="divide" class="numpad-operations" value="/" data-key="NumpadDivide">/</button>   
+                </div> 
+             </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
